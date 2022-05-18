@@ -2,10 +2,7 @@ import React from "react";
 
 function Header(props) {
   const {
-    // categories = [],
-    // setCurrentCategory,
     aboutSelected,
-    // currentCategory,
     setAboutSelected,
     portfolioSelected,
     setPortfolioSelected,
@@ -21,18 +18,54 @@ function Header(props) {
         <a href="/">Amir Shariat</a>
       </h1>
       <nav>
-        <ul>
-          <li className={`nav-items ${aboutSelected && "nav-active"}`}>
-            <span onClick={() => setAboutSelected(true)}>About Me</span>
+        <ul className="nav-items">
+          <li className={`nav-item ${aboutSelected && "nav-active"}`}>
+            <h4
+              onClick={() => {
+                setAboutSelected(true);
+                setPortfolioSelected(false);
+                setContactSelected(false);
+                setResumeSelected(false);
+              }}
+            >
+              About Me
+            </h4>
           </li>
-          <li className={`nav-items ${portfolioSelected && "nav-active"}`}>
-            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+          <li className={`nav-item ${portfolioSelected && "nav-active"}`}>
+            <h4
+              onClick={() => {
+                setAboutSelected(false);
+                setPortfolioSelected(true);
+                setContactSelected(false);
+                setResumeSelected(false);
+              }}
+            >
+              Portfolio
+            </h4>
           </li>
-          <li className={`nav-items ${contactSelected && "nav-active"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className={`nav-item ${contactSelected && "nav-active"}`}>
+            <h4
+              onClick={() => {
+                setAboutSelected(false);
+                setPortfolioSelected(false);
+                setContactSelected(true);
+                setResumeSelected(false);
+              }}
+            >
+              Contact
+            </h4>
           </li>
-          <li className={`nav-items ${resumeSelected && "nav-active"}`}>
-            <span onClick={() => setResumeSelected(true)}>Resume</span>
+          <li className={`nav-item ${resumeSelected && "nav-active"}`}>
+            <h4
+              onClick={() => {
+                setAboutSelected(false);
+                setPortfolioSelected(false);
+                setContactSelected(false);
+                setResumeSelected(true);
+              }}
+            >
+              Resume
+            </h4>
           </li>
         </ul>
       </nav>

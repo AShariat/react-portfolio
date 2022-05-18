@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [aboutSelected, setAboutSelected] = useState(false);
@@ -22,7 +25,15 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Header>
       <main>
-        <About></About>
+        {portfolioSelected ? (
+          <Portfolio></Portfolio>
+        ) : contactSelected ? (
+          <Contact></Contact>
+        ) : resumeSelected ? (
+          <Resume></Resume>
+        ) : (
+          <About></About>
+        )}
       </main>
       <Footer></Footer>
     </div>
