@@ -5,8 +5,8 @@ function About() {
     <div id="about">
       <img
         src={require("../../assets/images/amir-shariat.jpeg")}
-        className="about-image"
         alt="Amir Shariat"
+        className="about-image"
       />
       <p className="about-text">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
