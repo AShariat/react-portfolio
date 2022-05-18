@@ -20,7 +20,7 @@ function Header(props) {
       <nav>
         <ul className="nav-items">
           <li className={`nav-item ${aboutSelected && "nav-active"}`}>
-            <h4
+            <span
               onClick={() => {
                 setAboutSelected(true);
                 setPortfolioSelected(false);
@@ -29,10 +29,10 @@ function Header(props) {
               }}
             >
               About Me
-            </h4>
+            </span>
           </li>
           <li className={`nav-item ${portfolioSelected && "nav-active"}`}>
-            <h4
+            <span
               onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(true);
@@ -41,10 +41,10 @@ function Header(props) {
               }}
             >
               Portfolio
-            </h4>
+            </span>
           </li>
           <li className={`nav-item ${contactSelected && "nav-active"}`}>
-            <h4
+            <span
               onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(false);
@@ -52,11 +52,11 @@ function Header(props) {
                 setResumeSelected(false);
               }}
             >
-              Contact
-            </h4>
+              Contact Me
+            </span>
           </li>
           <li className={`nav-item ${resumeSelected && "nav-active"}`}>
-            <h4
+            <span
               onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(false);
@@ -65,7 +65,7 @@ function Header(props) {
               }}
             >
               Resume
-            </h4>
+            </span>
           </li>
         </ul>
       </nav>

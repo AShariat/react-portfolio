@@ -7,7 +7,9 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(false);
+  document.title = "Amir Shariat";
+
+  const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
