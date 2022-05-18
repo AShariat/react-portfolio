@@ -77,6 +77,23 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+#about {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.about-image {
+  margin: 20px auto;
+  height: 300px;
+}
+.about-text {
+  margin: 20px;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: justify;
+}
 #contact {
   margin: 20px auto;
   display: flex;
