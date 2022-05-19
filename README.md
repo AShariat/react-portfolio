@@ -16,6 +16,8 @@ Here I used my React skills to build a single page application to share some inf
 
 ## Demo
 
+![react-portfolio](https://user-images.githubusercontent.com/88262115/169194596-b6b7360f-c247-4a97-9046-06d7096ba4b2.jpg)
+
 ## Usage
 
 Just open this live link to the web app and enjoy it:
