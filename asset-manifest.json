@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.01ca4e18.css",
+    "main.js": "/react-portfolio/static/js/main.ce07ae3f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/uhoo.jpg": "/react-portfolio/static/media/uhoo.0528976a99c3f59eda59.jpg",
+    "static/media/copy-cat-games.png": "/react-portfolio/static/media/copy-cat-games.14c8a714ac98e4109cdf.png",
+    "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.defd20f0766f2f314e23.jpg",
+    "static/media/resume.docx": "/react-portfolio/static/media/resume.0693b01d51e732fc7f80.docx",
+    "static/media/code-quiz.jpg": "/react-portfolio/static/media/code-quiz.55d6dd1923a14a80649b.jpg",
+    "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.eca5e28c8e76b6482f22.jpg",
+    "static/media/amir-shariat.jpeg": "/react-portfolio/static/media/amir-shariat.8120595d2da38755fc27.jpeg",
+    "static/media/robot-gladiators.jpg": "/react-portfolio/static/media/robot-gladiators.ab16255ad2c5a33d46e0.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.01ca4e18.css.map": "/react-portfolio/static/css/main.01ca4e18.css.map",
+    "main.ce07ae3f.js.map": "/react-portfolio/static/js/main.ce07ae3f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ca4e18.css",
+    "static/js/main.ce07ae3f.js"
+  ]
+}
