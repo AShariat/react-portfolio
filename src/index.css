@@ -43,7 +43,7 @@ h5 {
   font-family: "Poiret One", cursive;
 }
 h6 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--primary);
 }
 header {
@@ -196,11 +196,13 @@ main {
 }
 footer {
   background-color: var(--tertiary);
-  margin: 0px 5px 10px;
-  padding: 10px;
+  margin: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: "Poiret One", cursive;
+}
+footer a {
+  text-decoration: none;
+  margin: 5px 10px;
 }
