@@ -84,6 +84,7 @@ main {
   flex-direction: column;
 }
 #about {
+  margin: 20px auto;
   min-width: 100%;
   display: flex;
   flex-direction: column;
@@ -102,6 +103,7 @@ main {
   color: var(--tertiary);
 }
 #portfolio {
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -167,7 +169,7 @@ main {
   box-shadow: 0 0 0.25rem var(--secondary);
 }
 #resume {
-  margin: 20px;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -189,7 +191,7 @@ main {
 }
 .resume-detail {
   font-size: 1.5rem;
-  margin: 25px 0px 0px 30px;
+  margin-top: 25px;
   color: var(--secondary);
 }
 footer {
