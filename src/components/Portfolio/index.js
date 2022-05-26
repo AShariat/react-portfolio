@@ -149,6 +149,30 @@ function Portfolio() {
             GitHub Repository
           </a>
         </div>
+        <div className="portfolio-items">
+          <img
+            src={require("../../assets/images/my-budget.jpg")}
+            alt="My Budget"
+            className="portfolio-image"
+          />
+          <h5>My Budget</h5>
+          <a
+            href="https://amir-mybudget.herokuapp.com/"
+            title="My Budget"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Application
+          </a>
+          <a
+            href="https://github.com/AShariat/my-budget"
+            title="My Budget"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
       </div>
     </div>
   );
